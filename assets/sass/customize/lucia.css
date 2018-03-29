@@ -1,0 +1,19 @@
+#billing_city_field,#shipping_city_field { 
+    float: none;
+    width: 100%;
+}
+@font-face { 	
+   font-family: UpperEastSide;  	
+   src: url(http://lucia.epizy.com/wp-content/themes/lucia-theme/fonts/UpperEastSide.ttf); 	
+   font-weight: normal;  
+}
+
+.site-header {
+   padding-top: 1em;
+   padding-bottom: 0;
+}
+
+.woocommerce-active .site-header .col-full {
+   padding: 0 0;
+   max-width: 90%;
+}
