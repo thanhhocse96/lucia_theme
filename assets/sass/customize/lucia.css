@@ -32,6 +32,11 @@ button.menu-toggle, button.menu-toggle:hover {
     font-family: UTMAmericana;
 }
 
+.secondary-navigation .menu {
+    font-size: 1.2em;
+    font-family: UTMAmericana;
+}
+
 @media only screen and (max-width: 800px) {
     .site-header {
         padding-top: 1em;
