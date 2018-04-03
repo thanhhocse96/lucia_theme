@@ -8,6 +8,12 @@
    font-weight: normal;  
 }
 
+@font-face { 	
+    font-family: UTMAmericana;  	
+    src: url(http://lucia.epizy.com/wp-content/themes/lucia-theme/fonts/UTMAmericana.ttf); 	
+    font-weight: normal;  
+}
+
 .site-header {
    padding-top: 1em;
    padding-bottom: 0;
@@ -16,4 +22,20 @@
 .woocommerce-active .site-header .col-full {
    padding: 0 0;
    max-width: 90%;
+}
+
+.woocommerce-active .site-header .secondary-navigation {
+    font-family: UTMAmericana;
+}
+
+button.menu-toggle, button.menu-toggle:hover {
+    font-family: UTMAmericana;
+}
+
+@media only screen and (max-width: 800px) {
+    .site-header {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
 }
