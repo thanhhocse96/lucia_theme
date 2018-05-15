@@ -1,5 +1,5 @@
 /*
-Theme Name:   	Storefront Child Theme
+Theme Name:   	Storefront Child Theme - Lucia Theme
 Theme URI:    	https://github.com/stuartduff/storefront-child-theme
 Author:       	Stuart Duff
 Author URI:     http://stuartduff.com
@@ -23,7 +23,7 @@ Images License: GNU General Public License v2 or later
  * Add your own custom css below this text.
  */
 
- #menu-secondary-menu{
+ .secondary-navigation .menu #menu-secondary-menu{
 	font-family: 'Pacifico', cursive;
 	font-size: 14pt;
 	color: #c3781f;
