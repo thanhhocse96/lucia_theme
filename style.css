@@ -28,3 +28,14 @@ Images License: GNU General Public License v2 or later
 	font-size: 14pt;
 	color: #c3781f;
 }
+
+@media screen and (min-width: 768px) {
+    /* LOGO */
+    .site-header .site-branding, .site-header .site-logo-anchor, .site-header .site-logo-link { width: 30% !important; /* Use px values if you want, eg. 350px */ }
+
+    /* SECONDARY NAVIGATION */
+    .site-header .secondary-navigation { width: 40% !important;  /* Use px values if you want, eg. 350px */ }
+
+    /* SEARCH BAR */
+    .site-header .site-search { width: 30% !important;  /* Use px values if you want, eg. 350px */ }
+}
