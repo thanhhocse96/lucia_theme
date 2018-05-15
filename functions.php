@@ -23,4 +23,19 @@ function sf_child_theme_dequeue_style() {
  * Note: DO NOT! alter or remove the code above this text and only add your custom PHP functions below this text.
  */
 
+add_filter( 'post_date_column_time' , 'woo_custom_post_date_column_time' );
+/**
+ * woo_custom_post_date_column_time
+ *
+ * @access      public
+ * @since       1.0 
+ * @return      void
+*/
+function woo_custom_post_date_column_time( $post ) {
+	
+	$h_time = get_post_time( __( 'd/m/Y', 'woocommerce' ), $post );
+	
+	return $h_time;
+	
+}
 
