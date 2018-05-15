@@ -21,6 +21,7 @@ function sf_child_theme_dequeue_style() {
 
 /**
  * Note: DO NOT! alter or remove the code above this text and only add your custom PHP functions below this text.
+ * Change Date Format
  */
 
 add_filter( 'post_date_column_time' , 'woo_custom_post_date_column_time' );
