@@ -41,7 +41,11 @@ Images License: GNU General Public License v2 or later
 }
 
 .secondary-navigation .menu #menu-secondary-menu{
-	font-family: 'FesterBold', sans-serif;
+	font-family: 'FesterBold';
 	font-size: 14pt;
 	color: #c3781f;
+}
+
+.site-header .site-branding, .site-header .site-logo-anchor, .site-header .site-logo-link {
+    width: 12% !important;
 }
