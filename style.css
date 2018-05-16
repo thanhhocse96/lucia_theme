@@ -22,13 +22,7 @@ Images License: GNU General Public License v2 or later
 /*
  * Add your own custom css below this text.
  */
-
- .secondary-navigation .menu #menu-secondary-menu{
-	font-family: 'Pacifico', cursive;
-	font-size: 14pt;
-	color: #c3781f;
-}
-
+ 
 @media screen and (min-width: 768px) {
     /* LOGO */
     .site-header .site-branding, .site-header .site-logo-anchor, .site-header .site-logo-link { width: 30% !important; /* Use px values if you want, eg. 350px */ }
@@ -38,4 +32,16 @@ Images License: GNU General Public License v2 or later
 
     /* SEARCH BAR */
     .site-header .site-search { width: 30% !important;  /* Use px values if you want, eg. 350px */ }
+}
+
+
+@font-face {
+    font-family: 'FesterBold'; /*a name to be used later*/
+    src: url('./lucia_theme/assets/fonts/FesterBold.otf'); /*URL to font*/
+}
+
+.secondary-navigation .menu #menu-secondary-menu{
+	font-family: 'FesterBold', sans-serif;
+	font-size: 14pt;
+	color: #c3781f;
 }
