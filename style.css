@@ -46,6 +46,6 @@ Images License: GNU General Public License v2 or later
 	color: #c3781f;
 }
 
-.site-header .site-branding, .site-header .site-logo-anchor, .site-header .site-logo-link {
+.site-header .site-branding {
     width: 12% !important;
 }
