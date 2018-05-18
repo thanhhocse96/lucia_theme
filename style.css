@@ -57,3 +57,7 @@ Images License: GNU General Public License v2 or later
 	color: #c3781f;
 }
 
+/* Side header size: height */
+site-header .custom-logo-link, .site-header .site-logo-anchor, .site-header .site-logo-link {
+  height: 2em;
+}
