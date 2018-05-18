@@ -40,7 +40,7 @@ Images License: GNU General Public License v2 or later
     src: url('http://lucia.epizy.com/wp-content/themes/lucia_theme/assets/fonts/FesterBold.otf'); /*URL to font*/
 }
 
-.secondary-navigation .menu #menu-secondary-menu{
+.secondary-navigation .menu {
 	font-family: 'FesterBold';
 	font-size: 14pt;
 	color: #c3781f;
