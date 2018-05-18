@@ -37,7 +37,7 @@ Images License: GNU General Public License v2 or later
 
 @font-face {
     font-family: 'FesterBold'; /*a name to be used later*/
-    src: url('./lucia_theme/assets/fonts/FesterBold.otf'); /*URL to font*/
+    src: url('http://lucia.epizy.com/wp-content/themes/lucia_theme/assets/fonts/FesterBold.otf'); /*URL to font*/
 }
 
 .secondary-navigation .menu #menu-secondary-menu{
@@ -49,3 +49,11 @@ Images License: GNU General Public License v2 or later
 .site-header .site-branding {
     width: 12% !important;
 }
+
+.woocommerce-active .site-header .main-navigation{
+  width: 100%;
+  font-family: 'FesterBold';
+	font-size: 14pt;
+	color: #c3781f;
+}
+
