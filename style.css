@@ -40,6 +40,7 @@ Images License: GNU General Public License v2 or later
     src: url('http://lucia.epizy.com/wp-content/themes/lucia_theme/assets/fonts/FesterBold.otf'); /*URL to font*/
 }
 
+/* 2nd Navigation: Menu */
 .secondary-navigation .menu {
 	font-family: 'FesterBold';
 	font-size: 14pt;
@@ -48,6 +49,11 @@ Images License: GNU General Public License v2 or later
 
 .site-header .site-branding {
     width: 12% !important;
+}
+
+/* 2nd Navigation: margin in 2nd nav*/
+.secondary-navigation ul li {
+  margin-left: 1em;
 }
 
 .woocommerce-active .site-header .main-navigation{
@@ -61,3 +67,6 @@ Images License: GNU General Public License v2 or later
 site-header .custom-logo-link, .site-header .site-logo-anchor, .site-header .site-logo-link {
   height: 2em;
 }
+
+.storefront-secondary-navigation.woocommerce-active .site-header .secondary-navigation {
+  float: right;
