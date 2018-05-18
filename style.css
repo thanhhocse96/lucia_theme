@@ -70,3 +70,8 @@ site-header .custom-logo-link, .site-header .site-logo-anchor, .site-header .sit
 
 .storefront-secondary-navigation.woocommerce-active .site-header .secondary-navigation {
   float: right;
+}
+
+.page-template-template-homepage .entry-content, .page-template-template-homepage .entry-header {
+  max-width: 100%;
+}
