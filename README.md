@@ -1,6 +1,6 @@
 # Storefront Child Theme - Lucia theme
 
-Theme được config từ Storefront, để tương thích với thiết kế trang Lucia - trang thương mại điện tử về thời trang. Địa chỉ: http://lucia.epizy.com/ (do đây là free host nên sẽ có thời điểm các bạn không truy cập được nữa, mong mọi người thông cảm)
+Theme được config từ Storefront, để tương thích với thiết kế trang Lucia - trang thương mại điện tử về thời trang. Địa chỉ: http://lucia.epizy.com/ (do đây là free host nên sẽ có thời điểm các bạn không truy cập được nữa, mong mọi người thông cảm). Một số thông tin của về trang Lucia: [Slideshare](https://www.slideshare.net/HoQuangThanh/lucia-thng-mi-in-t-v-thi-trang).
 
 ## Tham khảo
 
